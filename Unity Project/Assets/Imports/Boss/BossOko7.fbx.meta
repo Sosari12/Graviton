@@ -1,0 +1,185 @@
+fileFormatVersion: 2
+guid: 0af02201491433745862d43edf65ff3c
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      74: -2645021634625152684
+    second: Armature|Base
+  - first:
+      74: 6059336001588132254
+    second: Armature|Die
+  - first:
+      74: 478705483815939949
+    second: Armature|Faze1_Atack1_L
+  - first:
+      74: 8007388219829824782
+    second: Armature|Faze1_Atack1_P
+  - first:
+      74: 380306002675510732
+    second: Armature|Faze1_Atack2_L
+  - first:
+      74: 5192027800392816821
+    second: Armature|Faze1_Atack2_P
+  - first:
+      74: 727125904837906532
+    second: Armature|Faze1_Atack3
+  - first:
+      74: -2780639309121696035
+    second: Armature|Faze1_Enter
+  - first:
+      74: -1030877331159091285
+    second: Armature|Faze1_Hurt
+  - first:
+      74: 6025637101211091249
+    second: Armature|Faze1_Idle
+  - first:
+      74: -1735749275915355018
+    second: Armature|Faze2_Atack1_L
+  - first:
+      74: -6496519310505836904
+    second: Armature|Faze2_Atack1_L2
+  - first:
+      74: -589161858242443078
+    second: Armature|Faze2_Atack1_P
+  - first:
+      74: 6790230010515328280
+    second: Armature|Faze2_Atack1_P2
+  - first:
+      74: -6905556955163547488
+    second: Armature|Faze2_Atack2.L
+  - first:
+      74: -2553160188884781664
+    second: Armature|Faze2_Atack2.P
+  - first:
+      74: -3448845784157847669
+    second: Armature|Faze2_Atack3
+  - first:
+      74: 8021492285069965576
+    second: Armature|Faze2_Atack3_L
+  - first:
+      74: 8927796097540779033
+    second: Armature|Faze2_Atack3_P
+  - first:
+      74: 5841317773799506184
+    second: Armature|Faze2_Enter
+  - first:
+      74: -8819096008114371802
+    second: Armature|Faze2_Hurt
+  - first:
+      74: 8346520309497331093
+    second: Armature|Faze2_Idle
+  - first:
+      74: -4986443556029664135
+    second: Armature|Przed_Enter
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black
+    second: {fileID: 2100000, guid: 6d0053d2d0aa3a64da7a3b6d0267593c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RedGlow
+    second: {fileID: 2100000, guid: ce9dea900e5c64a4cb1c77d8aeba9bab, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,257 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RightHandAvatar
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Armature
+    m_Weight: 0
+  - m_Path: Armature/Root
+    m_Weight: 0
+  - m_Path: Armature/Root/Forearm.001.L
+    m_Weight: 1
+  - m_Path: Armature/Root/Forearm.001.L/Forearm.002.L
+    m_Weight: 1
+  - m_Path: Armature/Root/Forearm.001.L/Forearm.L
+    m_Weight: 1
+  - m_Path: Armature/Root/Forearm.001.L/Forearm.L/Hand.L
+    m_Weight: 1
+  - m_Path: Armature/Root/Forearm.001.L/Forearm.L/Hand.L/Finger_Base.000.L
+    m_Weight: 1
+  - m_Path: Armature/Root/Forearm.001.L/Forearm.L/Hand.L/Finger_Base.000.L/Kciuk.000.L
+    m_Weight: 1
+  - m_Path: Armature/Root/Forearm.001.L/Forearm.L/Hand.L/Finger_Base.000.L/Kciuk.000.L/Kciuk.001.L
+    m_Weight: 1
+  - m_Path: Armature/Root/Forearm.001.L/Forearm.L/Hand.L/Finger_Base.000.L/Kciuk.000.L/Kciuk.001.L/Kciuk.002.L
+    m_Weight: 1
+  - m_Path: Armature/Root/Forearm.001.L/Forearm.L/Hand.L/Finger_Base.001.L
+    m_Weight: 1
+  - m_Path: Armature/Root/Forearm.001.L/Forearm.L/Hand.L/Finger_Base.001.L/Small.000.L
+    m_Weight: 1
+  - m_Path: Armature/Root/Forearm.001.L/Forearm.L/Hand.L/Finger_Base.001.L/Small.000.L/Small.001.L
+    m_Weight: 1
+  - m_Path: Armature/Root/Forearm.001.L/Forearm.L/Hand.L/Finger_Base.001.L/Small.000.L/Small.001.L/Small.002.L
+    m_Weight: 1
+  - m_Path: Armature/Root/Forearm.001.L/Forearm.L/Hand.L/Finger_Base.002.L
+    m_Weight: 1
+  - m_Path: Armature/Root/Forearm.001.L/Forearm.L/Hand.L/Finger_Base.002.L/Index.000.L
+    m_Weight: 1
+  - m_Path: Armature/Root/Forearm.001.L/Forearm.L/Hand.L/Finger_Base.002.L/Index.000.L/Index.001.L
+    m_Weight: 1
+  - m_Path: Armature/Root/Forearm.001.L/Forearm.L/Hand.L/Finger_Base.002.L/Index.000.L/Index.001.L/Index.002.L
+    m_Weight: 1
+  - m_Path: Armature/Root/Forearm.001.L/Forearm.L/Hand.L/Finger_Base.003.L
+    m_Weight: 1
+  - m_Path: Armature/Root/Forearm.001.L/Forearm.L/Hand.L/Finger_Base.003.L/Middle.000.L
+    m_Weight: 1
+  - m_Path: Armature/Root/Forearm.001.L/Forearm.L/Hand.L/Finger_Base.003.L/Middle.000.L/Middle.001.L
+    m_Weight: 1
+  - m_Path: Armature/Root/Forearm.001.L/Forearm.L/Hand.L/Finger_Base.003.L/Middle.000.L/Middle.001.L/Middle.002.L
+    m_Weight: 1
+  - m_Path: Armature/Root/Forearm.001.L/Forearm.L/Hand.L/Finger_Base.004.L
+    m_Weight: 1
+  - m_Path: Armature/Root/Forearm.001.L/Forearm.L/Hand.L/Finger_Base.004.L/Point.000.L
+    m_Weight: 1
+  - m_Path: Armature/Root/Forearm.001.L/Forearm.L/Hand.L/Finger_Base.004.L/Point.000.L/Point.001.L
+    m_Weight: 1
+  - m_Path: Armature/Root/Forearm.001.L/Forearm.L/Hand.L/Finger_Base.004.L/Point.000.L/Point.001.L/Point.002.L
+    m_Weight: 1
+  - m_Path: Armature/Root/Forearm.001.L/Forearm.L/Hand.L/Reaktor.001.L
+    m_Weight: 1
+  - m_Path: Armature/Root/Forearm.001.L/Forearm.L/Reaktor.L
+    m_Weight: 1
+  - m_Path: Armature/Root/Forearm.001.L/Forearm.L/Tlok.001.L
+    m_Weight: 1
+  - m_Path: Armature/Root/Forearm.001.L/Forearm.L/Tlok.002.L
+    m_Weight: 1
+  - m_Path: Armature/Root/Forearm.001.R
+    m_Weight: 0
+  - m_Path: Armature/Root/Forearm.001.R/Forearm.002.R
+    m_Weight: 0
+  - m_Path: Armature/Root/Forearm.001.R/Forearm.R
+    m_Weight: 0
+  - m_Path: Armature/Root/Forearm.001.R/Forearm.R/Hand.R
+    m_Weight: 0
+  - m_Path: Armature/Root/Forearm.001.R/Forearm.R/Hand.R/Finger_Base.000.R
+    m_Weight: 0
+  - m_Path: Armature/Root/Forearm.001.R/Forearm.R/Hand.R/Finger_Base.000.R/Kciuk.000.R
+    m_Weight: 0
+  - m_Path: Armature/Root/Forearm.001.R/Forearm.R/Hand.R/Finger_Base.000.R/Kciuk.000.R/Kciuk.001.R
+    m_Weight: 0
+  - m_Path: Armature/Root/Forearm.001.R/Forearm.R/Hand.R/Finger_Base.000.R/Kciuk.000.R/Kciuk.001.R/Kciuk.002.R
+    m_Weight: 0
+  - m_Path: Armature/Root/Forearm.001.R/Forearm.R/Hand.R/Finger_Base.001.R
+    m_Weight: 0
+  - m_Path: Armature/Root/Forearm.001.R/Forearm.R/Hand.R/Finger_Base.001.R/Small.000.R
+    m_Weight: 0
+  - m_Path: Armature/Root/Forearm.001.R/Forearm.R/Hand.R/Finger_Base.001.R/Small.000.R/Small.001.R
+    m_Weight: 0
+  - m_Path: Armature/Root/Forearm.001.R/Forearm.R/Hand.R/Finger_Base.001.R/Small.000.R/Small.001.R/Small.002.R
+    m_Weight: 0
+  - m_Path: Armature/Root/Forearm.001.R/Forearm.R/Hand.R/Finger_Base.002.R
+    m_Weight: 0
+  - m_Path: Armature/Root/Forearm.001.R/Forearm.R/Hand.R/Finger_Base.002.R/Index.000.R
+    m_Weight: 0
+  - m_Path: Armature/Root/Forearm.001.R/Forearm.R/Hand.R/Finger_Base.002.R/Index.000.R/Index.001.R
+    m_Weight: 0
+  - m_Path: Armature/Root/Forearm.001.R/Forearm.R/Hand.R/Finger_Base.002.R/Index.000.R/Index.001.R/Index.002.R
+    m_Weight: 0
+  - m_Path: Armature/Root/Forearm.001.R/Forearm.R/Hand.R/Finger_Base.003.R
+    m_Weight: 0
+  - m_Path: Armature/Root/Forearm.001.R/Forearm.R/Hand.R/Finger_Base.003.R/Middle.000.R
+    m_Weight: 0
+  - m_Path: Armature/Root/Forearm.001.R/Forearm.R/Hand.R/Finger_Base.003.R/Middle.000.R/Middle.001.R
+    m_Weight: 0
+  - m_Path: Armature/Root/Forearm.001.R/Forearm.R/Hand.R/Finger_Base.003.R/Middle.000.R/Middle.001.R/Middle.002.R
+    m_Weight: 0
+  - m_Path: Armature/Root/Forearm.001.R/Forearm.R/Hand.R/Finger_Base.004.R
+    m_Weight: 0
+  - m_Path: Armature/Root/Forearm.001.R/Forearm.R/Hand.R/Finger_Base.004.R/Point.000.R
+    m_Weight: 0
+  - m_Path: Armature/Root/Forearm.001.R/Forearm.R/Hand.R/Finger_Base.004.R/Point.000.R/Point.001.R
+    m_Weight: 0
+  - m_Path: Armature/Root/Forearm.001.R/Forearm.R/Hand.R/Finger_Base.004.R/Point.000.R/Point.001.R/Point.002.R
+    m_Weight: 0
+  - m_Path: Armature/Root/Forearm.001.R/Forearm.R/Hand.R/Reaktor.001.R
+    m_Weight: 0
+  - m_Path: Armature/Root/Forearm.001.R/Forearm.R/ShieldReaktor
+    m_Weight: 0
+  - m_Path: Armature/Root/Forearm.001.R/Forearm.R/ShieldReaktor_Arm.000
+    m_Weight: 0
+  - m_Path: Armature/Root/Forearm.001.R/Forearm.R/ShieldReaktor_Arm.001
+    m_Weight: 0
+  - m_Path: Armature/Root/Forearm.001.R/Forearm.R/Tarcza.endPoint.000.L
+    m_Weight: 0
+  - m_Path: Armature/Root/Forearm.001.R/Forearm.R/Tarcza.endPoint.000.R
+    m_Weight: 0
+  - m_Path: Armature/Root/Forearm.001.R/Forearm.R/Tarcza.endPoint.001.L
+    m_Weight: 0
+  - m_Path: Armature/Root/Forearm.001.R/Forearm.R/Tarcza.endPoint.001.R
+    m_Weight: 0
+  - m_Path: Armature/Root/Forearm.001.R/Forearm.R/Tarcza.endPoint.002.L
+    m_Weight: 0
+  - m_Path: Armature/Root/Forearm.001.R/Forearm.R/Tarcza.endPoint.002.R
+    m_Weight: 0
+  - m_Path: Armature/Root/Forearm.001.R/Forearm.R/Tarcza.endPoint.003.L
+    m_Weight: 0
+  - m_Path: Armature/Root/Forearm.001.R/Forearm.R/Tarcza.endPoint.003.R
+    m_Weight: 0
+  - m_Path: Armature/Root/Forearm.001.R/Forearm.R/Tarcza.endPoint.004.L
+    m_Weight: 0
+  - m_Path: Armature/Root/Forearm.001.R/Forearm.R/Tarcza.endPoint.004.R
+    m_Weight: 0
+  - m_Path: Armature/Root/Forearm.001.R/Forearm.R/Tarcza.endPoint.005.L
+    m_Weight: 0
+  - m_Path: Armature/Root/Forearm.001.R/Forearm.R/Tarcza.endPoint.005.R
+    m_Weight: 0
+  - m_Path: Armature/Root/Forearm.001.R/Forearm.R/Tlok.001.R
+    m_Weight: 0
+  - m_Path: Armature/Root/Forearm.001.R/Forearm.R/Tlok.002.R
+    m_Weight: 0
+  - m_Path: BezierCurve.001
+    m_Weight: 0
+  - m_Path: Bolt Ramie
+    m_Weight: 0
+  - m_Path: bolt.003
+    m_Weight: 0
+  - m_Path: Circle
+    m_Weight: 0
+  - m_Path: Circle.001
+    m_Weight: 0
+  - m_Path: Cube
+    m_Weight: 0
+  - m_Path: Cylinder
+    m_Weight: 0
+  - m_Path: higesbot
+    m_Weight: 0
+  - m_Path: hinges
+    m_Weight: 0
+  - m_Path: Kabel Do Reaktora.001
+    m_Weight: 0
+  - m_Path: Laczenia
+    m_Weight: 0
+  - m_Path: Laczenia.001
+    m_Weight: 0
+  - m_Path: Laczenia.002
+    m_Weight: 0
+  - m_Path: Laczenia.003
+    m_Weight: 0
+  - m_Path: Laczenia.004
+    m_Weight: 0
+  - m_Path: Laczenia.005
+    m_Weight: 0
+  - m_Path: Laczenia.006
+    m_Weight: 0
+  - m_Path: Laczenia.010
+    m_Weight: 0
+  - m_Path: Laczenia.011
+    m_Weight: 0
+  - m_Path: Laczenia.012
+    m_Weight: 0
+  - m_Path: Laczenia.013
+    m_Weight: 0
+  - m_Path: Laczenia.014
+    m_Weight: 0
+  - m_Path: Laczenie Reaktora
+    m_Weight: 0
+  - m_Path: Laczenie_Ramie_Przedramie
+    m_Weight: 0
+  - m_Path: Laczenie_Ramie_Przedramie.001
+    m_Weight: 0
+  - m_Path: Okrag.001
+    m_Weight: 0
+  - m_Path: Palec
+    m_Weight: 0
+  - m_Path: Palec.002
+    m_Weight: 0
+  - m_Path: Palec.003
+    m_Weight: 0
+  - m_Path: Palec.004
+    m_Weight: 0
+  - m_Path: Palec.005
+    m_Weight: 0
+  - m_Path: plytka lokiec
+    m_Weight: 0
+  - m_Path: Plytka top
+    m_Weight: 0
+  - m_Path: Plytka top2
+    m_Weight: 0
+  - m_Path: Przedramie.001
+    m_Weight: 0
+  - m_Path: RaczkaNaRamieniu.001
+    m_Weight: 0
+  - m_Path: Ramie
+    m_Weight: 0
+  - m_Path: Ramie.001
+    m_Weight: 0
+  - m_Path: Ramie.003
+    m_Weight: 0
+  - m_Path: RdzenReaktoraShield
+    m_Weight: 0
+  - m_Path: Reaktor
+    m_Weight: 0
+  - m_Path: ReaktorShield.001
+    m_Weight: 0
+  - m_Path: Reka
+    m_Weight: 0
+  - m_Path: RekaKreciolek
+    m_Weight: 0
+  - m_Path: Shield New
+    m_Weight: 0
+  - m_Path: Shield New smaller
+    m_Weight: 0
+  - m_Path: Tlok
+    m_Weight: 0
+  - m_Path: Tlok.001
+    m_Weight: 0
+  - m_Path: Wentylator
+    m_Weight: 0
+  - m_Path: Wentylator.001
+    m_Weight: 0
