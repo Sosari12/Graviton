@@ -37,4 +37,4 @@ Project was created in Unity 2021.3.11f1
 
 If you are interested in viewing the Unity project please install the correct version.
 
-Build is work in progress.
+If you wish to try the work in progress version of the game head to: https://github.com/Sosari12/Graviton_Build
