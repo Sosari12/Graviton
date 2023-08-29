@@ -5,7 +5,7 @@ Graviton is a project where player can change their point of gravity depending o
 
 Every wall is considered as a wall. 
 
-Point of the game is to implement an interesting new mechanic in an FPS game as well as optically disorient the player.
+Point of the project was to implement an interesting new mechanic in an FPS game as well as optically disorient the player.
 
 ## Gameplay
 Player can walk up to any wall and change their point of gravity to match the collided wall.
