@@ -18,6 +18,8 @@ Currently game features three maps each designed differently to explore the wall
 ## Controls
 W,A,S,D - movement
 
+Shift - Shift
+
 Camera - Mouse
 
 Left mouse button - Fire
