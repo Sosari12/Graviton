@@ -16,7 +16,7 @@ In order to progress the game player needs to fight off waves of enemies to move
 
 Currently game features three maps each designed differently to explore the wall climb mechanic.
 
-![](https://github.com/Sosari12/Graviton/blob/main/media/2023-09-27%2016-04-14.gif)
+![](https://github.com/Sosari12/Graviton/blob/main/media/2023-09-27%2016-04-44.gif)
 
 ## Controls
 W,A,S,D - movement
