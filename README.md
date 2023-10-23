@@ -7,7 +7,7 @@ Every wall is considered as a wall.
 
 Point of the project was to implement an interesting new mechanic in an FPS game as well as optically disorient the player.
 
-![](https://github.com/Sosari12/TicTacToe/blob/main/Media/TicTacToe_gameStart.gif)
+![](https://github.com/Sosari12/Graviton/blob/main/media/2023-09-27%2016-03-45.gif)
 
 ## Gameplay
 Player can walk up to any wall and change their point of gravity to match the collided wall.
@@ -16,7 +16,7 @@ In order to progress the game player needs to fight off waves of enemies to move
 
 Currently game features three maps each designed differently to explore the wall climb mechanic.
 
-![](https://github.com/Sosari12/TicTacToe/blob/main/Media/TicTacToe_gameStart.gif)
+![](https://github.com/Sosari12/Graviton/blob/main/media/2023-09-27%2016-04-44.gif)
 
 ## Controls
 W,A,S,D - movement
@@ -35,7 +35,7 @@ Space - Jump
 
 Esc - Return to menu
 
-![](https://github.com/Sosari12/TicTacToe/blob/main/Media/TicTacToe_gameStart.gif)
+![](https://github.com/Sosari12/Graviton/blob/main/media/2023-09-27%2016-04-28.gif)
 
 ## Instalation
 Project was created in Unity 2021.3.11f1
