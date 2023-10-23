@@ -54,17 +54,23 @@ public class BossDamager : MonoBehaviour
         lightAnim.SetTrigger("Hit");
 
         //to samo dla koloru swiatla
-        if (faza == 1 || faza == 2 && BossHP == HpFaz[faza] - ileMaZadac)
+        /*
+        if (faza == 1 || faza == 2 && BossHP == HpFaz[faza] - ileMaZadac && BossHP > 0)
         {
             bossAnimator.SetTrigger("Hurt");
         }
-
-        
+        */
+        //&& BossHP == HpFaz[faza]
+        ZmienFaze();
+        if (faza == 1 || faza == 2 && BossHP > 0)
+        {
+            if(!bossAnimator.GetBool("FazeChange"))bossAnimator.SetTrigger("Hurt");
+        }
     }
 
     public void ZmienFaze()
     {
-        if (BossHP == HpFaz[faza] - ileMaZadac)
+        if (BossHP == HpFaz[faza]) // - ileMaZadac
         {
             if (faza == 0) bossAnimator.SetTrigger("Enter");
             if (faza == 1) bossAnimator.SetTrigger("Enter");
@@ -80,6 +86,15 @@ public class BossDamager : MonoBehaviour
                 oczy[3].SetActive(true);
                 oczy[4].SetActive(true);
                 oczy[5].SetActive(true);
+            }
+
+            if (bossAnimator.GetBool("FazeChange"))
+            {
+                bossAnimator.SetBool("FazeChange", false);
+            }
+            else
+            {
+                bossAnimator.SetBool("FazeChange", true);
             }
         }
     }

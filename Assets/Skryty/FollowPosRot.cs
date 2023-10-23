@@ -21,7 +21,11 @@ public class FollowPosRot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (rotateRatio > 0) transform.rotation = Quaternion.Slerp(transform.rotation, target.rotation, rotateRatio * Time.deltaTime);
-        if (followRatio > 0) transform.position = Vector3.Lerp(transform.position, target.position, followRatio * Time.deltaTime);
+        if(target != null)
+        {
+            if (rotateRatio > 0) transform.rotation = Quaternion.Slerp(transform.rotation, target.rotation, rotateRatio * Time.deltaTime);
+            if (followRatio > 0) transform.position = Vector3.Lerp(transform.position, target.position, followRatio * Time.deltaTime);
+        }
+
     }
 }

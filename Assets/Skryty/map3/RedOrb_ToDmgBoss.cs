@@ -37,7 +37,7 @@ public class RedOrb_ToDmgBoss : MonoBehaviour
         if (other.CompareTag("Boss"))
         {
             other.GetComponent<BossDamager>().OdejmijHP(ileMamDmg);
-            other.GetComponent<BossDamager>().ZmienFaze();
+            //other.GetComponent<BossDamager>().ZmienFaze();
             Destroy(gameObject);
         }
 

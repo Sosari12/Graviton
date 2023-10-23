@@ -22,9 +22,10 @@ public class Projectile : MonoBehaviour
     private void Start()
     {
         hitSFX = GameObject.Find("HitSFX").GetComponent<AudioSource>();
-
+        transform.LookAt(GameObject.Find("Player").transform);
     }
 
+    /*
     private void OnCollisionEnter(Collision collision)
     {
         if(collision.gameObject.tag != "Bullet" && collision.gameObject.tag != "Player" && !collided)
@@ -35,20 +36,23 @@ public class Projectile : MonoBehaviour
 
 
     }
-
+    */
 
     private void OnTriggerEnter(Collider other)
     {
+        
         if (other.CompareTag("Enemy") && !belongsToEnemy)
         {
+            DisableVFXParent();
             other.GetComponent<EnemyDamager>().TakeDamage(Damage);
             Instantiate(onHitVFX, other.transform.position, Quaternion.identity);
-            Destroy(gameObject);
             if (hitSFX != null) hitSFX.Play();
+            Destroy(gameObject);
         }
 
         if (other.CompareTag("Ground"))
         {
+            DisableVFXParent();
             collided = true;
             GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
             if(VFXPlace == null) Instantiate(groundHitVFX, transform.position, Quaternion.identity);
@@ -60,48 +64,73 @@ public class Projectile : MonoBehaviour
                 spawned.transform.localRotation = Quaternion.Euler(new Vector3(Random.Range(0f, 360f), Random.Range(0f, 360f), Random.Range(0f, 360f)));
             }
 
-            if (unParentTrail)
-            {
-                trail.GetComponent<Destroyer>().enabled = true;
-                trail.transform.parent = null;
-            }
             if(!dontDestroy)Destroy(gameObject);
         }
 
 
         if (other.CompareTag("BossEye") && !belongsToEnemy)
         {
+            DisableVFXParent();
+            if (hitSFX != null) hitSFX.Play();
+
             other.GetComponent<Boss_OkoDamager>().OdejmijHP(Damage);
             Instantiate(onHitVFX, other.transform.position, Quaternion.identity);
-            Destroy(gameObject);
+
             //sfx
             //bfx
-            if (hitSFX != null) hitSFX.Play();
+            Destroy(gameObject);
         }
 
         if(other.CompareTag("BossShield") && !belongsToEnemy)
         {
-            Destroy(gameObject);
+            DisableVFXParent();
             Instantiate(onHitVFX, transform.position, Quaternion.identity);
             //sfx
+
+            Destroy(gameObject);
         }
 
 
-        /*
-        if(other.CompareTag("Shield") && belongsToEnemy)
+       
+        
+
+        if (other.CompareTag("Player") && belongsToEnemy)
         {
+            //DisableVFXParent();
+            GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
+
+        }
+
+
+        if (other.gameObject.CompareTag("Shield") && belongsToEnemy && other.gameObject.GetComponent<PlayerShield>().shieldActive)
+        {
+            DisableVFXParent();
             //zadaj dmg
             GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
             Destroy(gameObject);
         }
-        */
 
-        if (other.CompareTag("Player") && belongsToEnemy)
+    }
+
+    /*
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Shield") && belongsToEnemy && collision.gameObject.GetComponent<PlayerShield>().shieldActive)
         {
+            DisableVFXParent();
+            //zadaj dmg
             GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
-
+            Destroy(gameObject);
         }
+    }
+    */
 
+    public void DisableVFXParent()
+    {
+        if (unParentTrail)
+        {
+            if (trail.transform.parent != null && trail != null) trail.transform.parent = null;
+        }
     }
 
 

@@ -19,11 +19,13 @@ public class MainController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             //Application.Quit();
             Return = true;
         }
+        
 
         if(Return)ReturnToMenu();
     }

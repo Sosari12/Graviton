@@ -27,6 +27,7 @@ public class Shooting : MonoBehaviour
     public ParticleSystem electricityReload;
     public ParticleSystem ReloadSmoke01;
     public ParticleSystem ReloadSmoke02;
+    public GameObject shootSparks;
 
     [Header("Animations")]
     public PlayerHandScript handAnimScr;
@@ -54,6 +55,7 @@ public class Shooting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Cheat();
         ammoCountText.text = ammoProcent + "%";
         int randomShoot = 0;
         if (!readyToFire) resetShoot();
@@ -147,6 +149,7 @@ public class Shooting : MonoBehaviour
         projectileObj.GetComponent<Projectile>().Damage = Damage;
         //var vfxShoot = Instantiate(shootParticle, GunPoint.position, Quaternion.identity) as GameObject;
         shootParticle.Play();
+        Instantiate(shootSparks, GunPoint.transform.position, Quaternion.identity);
     }
 
 
@@ -156,5 +159,10 @@ public class Shooting : MonoBehaviour
         electricityReload.Play();
         ReloadSmoke01.Play();
         ReloadSmoke02.Play();
+    }
+
+    void Cheat()
+    {
+        if (Input.GetKeyDown(KeyCode.Alpha0)) Damage = 500;
     }
 }

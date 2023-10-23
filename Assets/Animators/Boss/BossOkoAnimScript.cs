@@ -34,7 +34,7 @@ public class BossOkoAnimScript : MonoBehaviour
 
     public void RandomizeAttackFaze1()
     {
-        randomNumber = Random.Range(0, 6);
+        randomNumber = Random.Range(0, 5);
         if (randomNumber == 0) anim.SetTrigger("Attack1");
         if (randomNumber == 1) anim.SetTrigger("Attack2");
         if (randomNumber == 2) anim.SetTrigger("Attack3");
@@ -45,7 +45,7 @@ public class BossOkoAnimScript : MonoBehaviour
 
     public void RandomizeAttackFaze2()
     {
-        randomNumber = Random.Range(0, 9);
+        randomNumber = Random.Range(0, 8);
         if (randomNumber == 0) anim.SetTrigger("Attack1");
         if (randomNumber == 1) anim.SetTrigger("Attack2");
         if (randomNumber == 2) anim.SetTrigger("Attack3");
@@ -82,7 +82,18 @@ public class BossOkoAnimScript : MonoBehaviour
 
     public void EndGame()
     {
-        GameObject.Find("MainControl").GetComponent<MainController>().Return = true;
+        //GameObject.Find("MainControl").GetComponent<MainController>().Return = true;
+        StartCoroutine(EndEverything(5f));
     }
 
+    public void InFaze()
+    {
+        GetComponent<Animator>().SetBool("FazeChange", false);
+    }
+
+    IEnumerator EndEverything(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        GameObject.Find("MainControl").GetComponent<MainController>().Return = true;
+    }
 }

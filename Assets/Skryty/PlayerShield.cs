@@ -21,10 +21,12 @@ public class PlayerShield : MonoBehaviour
 
     public GameObject shieldObject;
     public GameObject onhitVFX;
+    public AudioSource destroySFX;
 
     [Header("Animator")]
     public Animator handAnim;
     public Shooting father;
+    public Animator BlueHit;
 
 
     // Start is called before the first frame update
@@ -64,23 +66,24 @@ public class PlayerShield : MonoBehaviour
     {
         if (other.CompareTag("EnemyBullet") && shieldActive)
         {
+            other.gameObject.GetComponent<Rigidbody>().velocity = new Vector3(0f, 0f, 0f);
 
+            BlueHit.SetTrigger("Hit");
             CameraShaker.Instance.ShakeOnce(3f, 2f, 0f, .5f);
             if (Random.Range(0,2) == 0) handAnim.SetTrigger("Hit1");
             else handAnim.SetTrigger("Hit2");
 
+
             if(father.ammoProcent < 100)father.ammoProcent += 10;
 
             float dmg = other.GetComponent<Projectile>().Damage;
-            Destroy(other.gameObject);
-            //VFX
-            //SFX
-            //ANIMATOR
-            //ZMNIEJSZENIE ENERGII
+            //Destroy(other.gameObject);
+
             Instantiate(onhitVFX, other.transform.position, Quaternion.identity);
             if(shieldEnergy > dmg)shieldEnergy -= dmg;
             else
             {
+                destroySFX.Play();
                 //handAnim.SetBool("ShieldDestroy", true);
                 handAnim.SetTrigger("ShieldDstr");
                 handAnim.SetBool("ShieldUp", false);

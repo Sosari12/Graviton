@@ -14,6 +14,8 @@ public class MenuManager : MonoBehaviour
     void Start()
     {
         fadeTimeMax = fadeTime;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 
     // Update is called once per frame

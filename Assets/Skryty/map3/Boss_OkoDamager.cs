@@ -20,6 +20,7 @@ public class Boss_OkoDamager : MonoBehaviour
     [Header("Spawner")]
     public bool wlSpawner;
     public GameObject spawner;
+    public bool zniszcz;
 
 
     // Start is called before the first frame update
@@ -43,6 +44,11 @@ public class Boss_OkoDamager : MonoBehaviour
         }
         */
         //sprawdza czy hp spadlo do 0 i jak tak to juz nie sprawdza i zadaje dmg bossowi;
+
+        if(zniszcz && Input.GetKeyDown(KeyCode.F8))
+        {
+            OdejmijHP(okoHP);
+        }
     }
 
     public void OdejmijHP(float ile)
